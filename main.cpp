@@ -43,7 +43,7 @@ static mqd_t responseQueue;
  * QUEUE_MAX_MESSAGES       const unsigned int    maximum number of messages in the queue before blocking new messages
  * QUEUE_MESSAGE_SIZE       const unsigned int    number of bytes indicating the size of an individual queue message
  * QUEUE_PERMISSIONS        const int             octal Unix read/write/execute file permissions granted to the queue on creation
- * QUEUE_MESSAGE_PRIORITY   const int             message priority of all messages sent through the message queuee
+ * QUEUE_MESSAGE_PRIORITY   const int             message priority of all messages sent through the message queue
  *******************************************************************************************************************************/
 static const char* COMMAND_QUEUE_NAME           = "/pgm1_mq_command";
 static const char* RESPONSE_QUEUE_NAME          = "/pgm1_mq_response";
