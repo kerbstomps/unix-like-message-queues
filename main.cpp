@@ -130,7 +130,7 @@ static int close_queues()
 static void kill_process(pid_t processID)
 {
     // send the kill signal
-	if (kill(processID, SIGKILL) == -1)
+    if (kill(processID, SIGKILL) == -1)
     {
         perror("kill_process::kill()");
     }
