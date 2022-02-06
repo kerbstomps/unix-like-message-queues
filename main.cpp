@@ -314,7 +314,7 @@ int main(int argc, char* argv[])
         // if it fails, manually send the SIGKILL to force terminate it
         if (waitpid(processID, NULL, 0) == -1)
         {
-            std::cerr << "kill_process::waitpid() - unable to wait for child process (" << processID << ") to exit.\n";
+            std::cerr << "server::waitpid() - unable to wait for child process (" << processID << ") to exit.\n";
             kill_process(processID);
         }
     }
