@@ -98,10 +98,6 @@ Where:
 * **main.cpp** is the source code of our object
 * **-lrt** is a linker flag to indicate that we need to link against the “real time” system library
 
-Additionally, **build.sh** is included which runs the above build command. It can be executed as follows:
-    
-    ./build.sh
-
 Running this command will create an executable named **pgm1** in the current working directory. The program can then be executed with the following command:
 
     ./pgm1
