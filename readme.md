@@ -40,7 +40,7 @@ The assigned task was to create a multi-process client/server program using [**f
 
 Three functions are asked to be implemented: 
 * [**getdomainname**](https://man7.org/linux/man-pages/man2/getdomainname.2.html "Linux manual page for getdomainname()") - get the system domain name and print it to the console
-* [**gethostname**](https://man7.org/linux/man-pages/man2/gethostname.2.html "Linux manual page for gethostname()") - get the system hotsname and print it to the console
+* [**gethostname**](https://man7.org/linux/man-pages/man2/gethostname.2.html "Linux manual page for gethostname()") - get the system hostname and print it to the console
 * [**uname**](https://man7.org/linux/man-pages/man2/uname.2.html, "Linux manual page for uname()") - get the system Unix name and print it to the console
 
 These three functions should invoke the corresponding UNIX functions of the same name. For our operating system, we were asked to use Ubuntu 20.04 LTS.
