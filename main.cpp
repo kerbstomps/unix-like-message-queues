@@ -213,6 +213,10 @@ int main(int argc, char* argv[])
         {
             perror("commandQueue::mq_close()");
         }
+        if (mq_unlink(COMMAND_QUEUE_NAME) == -1) // unlink commandQueue (so it is deleted)
+        {
+            perror("commandQueue::mq_unlink()");
+        }
         return EXIT_FAILURE;
     }
 
