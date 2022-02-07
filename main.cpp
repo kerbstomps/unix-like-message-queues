@@ -209,10 +209,10 @@ int main(int argc, char* argv[])
     if (responseQueue == -1)
     {
         perror("responseQueue::mq_open()");
-		if (mq_close(commandQueue) == -1) // close commandQueue (since it opened successfully)
-		{
-			perror("commandQueue::mq_close()");
-		}
+        if (mq_close(commandQueue) == -1) // close commandQueue (since it opened successfully)
+        {
+            perror("commandQueue::mq_close()");
+        }
         return EXIT_FAILURE;
     }
 
