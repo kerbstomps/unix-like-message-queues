@@ -16,7 +16,7 @@ It includes the following methods:
 * [**mq_receive**](https://man7.org/linux/man-pages/man2/mq_timedreceive.2.html "Linux manual page for mq_receive()")
 * [**getdomainname**](https://man7.org/linux/man-pages/man2/getdomainname.2.html "Linux manual page for getdomainname()")
 * [**gethostname**](https://man7.org/linux/man-pages/man2/gethostname.2.html "Linux manual page for gethostname()")
-* [**uname**](https://man7.org/linux/man-pages/man2/uname.2.html, "Linux manual page for uname()")
+* [**uname**](https://man7.org/linux/man-pages/man2/uname.2.html "Linux manual page for uname()")
 * [**signal**](https://man7.org/linux/man-pages/man7/signal.7.html "Linux manual page for signal()")
 * [**perror**](https://man7.org/linux/man-pages/man3/perror.3.html "Linux manual page for perror()")
 * [**strerror**](https://man7.org/linux/man-pages/man3/strerror.3.html "Linux manual page for strerror()")
@@ -41,7 +41,7 @@ The assigned task was to create a multi-process client/server program using [**f
 Three functions are asked to be implemented: 
 * [**getdomainname**](https://man7.org/linux/man-pages/man2/getdomainname.2.html "Linux manual page for getdomainname()") - get the system domain name and print it to the console
 * [**gethostname**](https://man7.org/linux/man-pages/man2/gethostname.2.html "Linux manual page for gethostname()") - get the system hostname and print it to the console
-* [**uname**](https://man7.org/linux/man-pages/man2/uname.2.html, "Linux manual page for uname()") - get the system Unix name and print it to the console
+* [**uname**](https://man7.org/linux/man-pages/man2/uname.2.html "Linux manual page for uname()") - get the system Unix name and print it to the console
 
 These three functions should invoke the corresponding UNIX functions of the same name. For our operating system, we were asked to use Ubuntu 20.04 LTS.
 
@@ -79,7 +79,7 @@ If **getdomainname** is provided, the UNIX function [**getdomainname**](https://
 
 If **gethostname** is provided, the UNIX function [**gethostname**](https://man7.org/linux/man-pages/man2/gethostname.2.html "Linux manual page for gethostname()") is called and sent to the client. 
 
-If **uname** is provided, the UNIX function [**uname**](https://man7.org/linux/man-pages/man2/uname.2.html, "Linux manual page for uname()") is called and a formatted string is returned to the client which contains all 6 components. 
+If **uname** is provided, the UNIX function [**uname**](https://man7.org/linux/man-pages/man2/uname.2.html "Linux manual page for uname()") is called and a formatted string is returned to the client which contains all 6 components. 
 
 If the **help** command is provided, a help message is returned to the client. 
 
